@@ -127,8 +127,8 @@ function loadPage(page) {
             <h1>درباره‌ی یاسین خسروی</h1>
             <p class="p231" dir="rtl">سلام دوستان! من محمد یاسین خسروی هستم.</p>
             <p class="p231" dir="rtl">من در آپارات یک چنل دارم و اسم این چنل، یاسین گیم هست. من یک گیمر عاشق کیمدی هستم و هر پنجشنبه و جمعه، یک لایو استریم در آپارات می‌گذارم.</p>
-            <img src="../image/photo_2024-11-08_12-14-23.jpg" alt="logo">
-            <img src="../image/photo_2024-11-08_12-14-30.jpg" alt="logo">
+            <img src="./image/photo_2024-11-08_12-14-23.jpg" alt="logo">
+            <img src="./image/photo_2024-11-08_12-14-30.jpg" alt="logo">
         <div class="navbar">
             <div class="right-links">
                 <div class="navbar1"><a id="n11" href="#home" class="active">خانه</a></div>
