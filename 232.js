@@ -147,7 +147,7 @@ function loadPage(page) {
         content.innerHTML = `
             <h1>سازنده</h1>
             <div><p class="c4738923" dir="rtl">گروه برنامه نویسی M</p></div>
-            <div><p class="c4738924">مدیر گروه: سید محمد اسان هاشمی</p></div>
+            <div><p class="c4738924">مدیر گروه: سید محمد احسان هاشمی</p></div>
             <div><p class="c4738924" dir="rtl">زبان های برنامه نویسی: html, css, java script</p></div>
             <div class="c4738925"><a href="tel:09143654519" target="_blank" dir="rtl">شماره تلفن: 09143654519</a></div>
             <div class="c4738925"><a href="mailto:1392ehsan1392ehsan@gmail.com" target="_blank" dir="rtl">ایمیل: 1392ehsan1392ehsan@gmail.com</a></div>
