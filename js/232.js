@@ -104,6 +104,10 @@ function loadPage(page) {
         <p>.</p>
         <p>.</p>
         <p>.</p>
+        <hr>
+        <h4>© Yasin Game. All rights are reserved.</h4>
+        <p>.</p>
+        <p>.</p>
         <div class="navbar">
             <div class="right-links">
                 <div class="navbar1"><a id="n1" href="#home" class="active">خانه</a></div>
