@@ -7,8 +7,8 @@ function loadPage(page) {
         <h2 class="w5055">فیلم ها</h2>
         <div class="a67666094318" id="67666094318">
             <iframe 
-                src="https://www.aparat.com/video/video/embed/videohash/fux9yl4/vt/frame"
-                width="480" height="270" allowfullscreen="true"></iframe>
+            src="https://www.aparat.com/video/video/embed/videohash/fux9yl4/vt/frame"
+            width="240" height="135" allowfullscreen="autoplay"></iframe>
         </div>
         <div class="a42503207910" id="42503207910">
             <iframe 
@@ -21,21 +21,21 @@ function loadPage(page) {
                 width="480" height="270" allowfullscreen="true"></iframe>
         </div>
         <div class="a75373909363" id="75373909363">
-        <iframe 
-            src="https://www.aparat.com/video/video/embed/videohash/plup189/vt/frame"
-            width="480" height="270" allowfullscreen="true"></iframe>
+            <iframe 
+                src="https://www.aparat.com/video/video/embed/videohash/plup189/vt/frame"
+                width="480" height="270" allowfullscreen="true"></iframe>
         </div>
         <div class="a77503489174" id="77503489174">
-        <iframe 
-            src="https://www.aparat.com/video/video/embed/videohash/cmkgq39/vt/frame"
-            width="480" height="270" allowfullscreen="true">
-        </iframe>
+            <iframe 
+                src="https://www.aparat.com/video/video/embed/videohash/cmkgq39/vt/frame"
+                width="480" height="270" allowfullscreen="true">
+            </iframe>
         </div>
         <div class="a51783650394" id="51783650394">
-        <iframe 
-            src="https://www.aparat.com/video/video/embed/videohash/bti5sz3/vt/frame"
-            width="480" height="270" allowfullscreen="true">
-        </iframe>
+            <iframe 
+                src="https://www.aparat.com/video/video/embed/videohash/bti5sz3/vt/frame"
+                width="480" height="270" allowfullscreen="true">
+            </iframe>
         </div>
         <div class="a30799014630" id="30799014630">
             <iframe 
@@ -181,3 +181,15 @@ window.addEventListener("hashchange", updateContentBasedOnHash);
 
 // بارگذاری اولیه
 updateContentBasedOnHash();
+
+document.addEventListener("DOMContentLoaded", function () {
+    applyHash(); // تابعی که ویدیوها را بارگذاری می‌کند
+});
+
+document.getElementById("playButton").addEventListener("click", function () {
+    const iframes = document.querySelectorAll("iframe");
+    iframes.forEach(iframe => {
+        const src = iframe.src;
+        iframe.src = src; // بازنشانی src برای اجرای مجدد
+    });
+});
