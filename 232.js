@@ -152,6 +152,7 @@ function loadPage(page) {
             <div class="c4738925"><a href="tel:09143654519" target="_blank" dir="rtl">شماره تلفن: 09143654519</a></div>
             <div class="c4738925"><a href="mailto:1392ehsan1392ehsan@gmail.com" target="_blank" dir="rtl">ایمیل: 1392ehsan1392ehsan@gmail.com</a></div>
             <div class="c4738925"><a href="https://eitaa.com/admin_ehsan_m" target="_blank" dir="rtl">ادمین ایتا: @admin_ehsan_m</a></div>
+            <img class="imglogo1" src="https://ehsan-hashemi.github.io/M-Translation/%D9%84%D9%88%DA%AF%D9%88%20%DA%AF%D8%B1%D9%88%D9%87%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D9%88%DB%8C%D8%B3%DB%8C%20M%D8%A8%D8%B1%D8%B4%20%D8%AF%D8%A7%D8%AF%D9%87%20%D8%B4%D8%AF%D9%87.png" alt="logo_MProgrammingGroup">
 
             <div class="navbar">
             <div class="right-links">
